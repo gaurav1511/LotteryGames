@@ -16,6 +16,7 @@
 		F40AC02B278C4C84004A73F9 /* RansomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC02A278C4C84004A73F9 /* RansomTests.swift */; };
 		F40AC035278C4C84004A73F9 /* RansomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC034278C4C84004A73F9 /* RansomUITests.swift */; };
 		F40AC037278C4C84004A73F9 /* RansomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */; };
+		F40AC044278C4D69004A73F9 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC043278C4D69004A73F9 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F40AC030278C4C84004A73F9 /* RansomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RansomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40AC034278C4C84004A73F9 /* RansomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomUITests.swift; sourceTree = "<group>"; };
 		F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F40AC043278C4D69004A73F9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				F40AC014278C4C82004A73F9 /* RansomApp.swift */,
 				F40AC016278C4C82004A73F9 /* ContentView.swift */,
+				F40AC043278C4D69004A73F9 /* HomeScreen.swift */,
 				F40AC018278C4C84004A73F9 /* Assets.xcassets */,
 				F40AC01D278C4C84004A73F9 /* Persistence.swift */,
 				F40AC01F278C4C84004A73F9 /* Ransom.xcdatamodeld */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40AC01E278C4C84004A73F9 /* Persistence.swift in Sources */,
+				F40AC044278C4D69004A73F9 /* HomeScreen.swift in Sources */,
 				F40AC017278C4C82004A73F9 /* ContentView.swift in Sources */,
 				F40AC015278C4C82004A73F9 /* RansomApp.swift in Sources */,
 				F40AC021278C4C84004A73F9 /* Ransom.xcdatamodeld in Sources */,
