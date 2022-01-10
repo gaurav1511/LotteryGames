@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40AC015278C4C82004A73F9 /* RansomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC014278C4C82004A73F9 /* RansomApp.swift */; };
+		F40AC017278C4C82004A73F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC016278C4C82004A73F9 /* ContentView.swift */; };
+		F40AC019278C4C84004A73F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40AC018278C4C84004A73F9 /* Assets.xcassets */; };
+		F40AC01C278C4C84004A73F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40AC01B278C4C84004A73F9 /* Preview Assets.xcassets */; };
+		F40AC01E278C4C84004A73F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC01D278C4C84004A73F9 /* Persistence.swift */; };
+		F40AC021278C4C84004A73F9 /* Ransom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F40AC01F278C4C84004A73F9 /* Ransom.xcdatamodeld */; };
+		F40AC02B278C4C84004A73F9 /* RansomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC02A278C4C84004A73F9 /* RansomTests.swift */; };
+		F40AC035278C4C84004A73F9 /* RansomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC034278C4C84004A73F9 /* RansomUITests.swift */; };
+		F40AC037278C4C84004A73F9 /* RansomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F40AC027278C4C84004A73F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AC009278C4C82004A73F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40AC010278C4C82004A73F9;
+			remoteInfo = Ransom;
+		};
+		F40AC031278C4C84004A73F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F40AC009278C4C82004A73F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F40AC010278C4C82004A73F9;
+			remoteInfo = Ransom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40AC011278C4C82004A73F9 /* Ransom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ransom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40AC014278C4C82004A73F9 /* RansomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomApp.swift; sourceTree = "<group>"; };
+		F40AC016278C4C82004A73F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F40AC018278C4C84004A73F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40AC01B278C4C84004A73F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F40AC01D278C4C84004A73F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		F40AC020278C4C84004A73F9 /* Ransom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ransom.xcdatamodel; sourceTree = "<group>"; };
+		F40AC026278C4C84004A73F9 /* RansomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RansomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40AC02A278C4C84004A73F9 /* RansomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomTests.swift; sourceTree = "<group>"; };
+		F40AC030278C4C84004A73F9 /* RansomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RansomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40AC034278C4C84004A73F9 /* RansomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomUITests.swift; sourceTree = "<group>"; };
+		F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40AC00E278C4C82004A73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AC023278C4C84004A73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AC02D278C4C84004A73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40AC008278C4C82004A73F9 = {
+			isa = PBXGroup;
+			children = (
+				F40AC013278C4C82004A73F9 /* Ransom */,
+				F40AC029278C4C84004A73F9 /* RansomTests */,
+				F40AC033278C4C84004A73F9 /* RansomUITests */,
+				F40AC012278C4C82004A73F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40AC012278C4C82004A73F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC011278C4C82004A73F9 /* Ransom.app */,
+				F40AC026278C4C84004A73F9 /* RansomTests.xctest */,
+				F40AC030278C4C84004A73F9 /* RansomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40AC013278C4C82004A73F9 /* Ransom */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC014278C4C82004A73F9 /* RansomApp.swift */,
+				F40AC016278C4C82004A73F9 /* ContentView.swift */,
+				F40AC018278C4C84004A73F9 /* Assets.xcassets */,
+				F40AC01D278C4C84004A73F9 /* Persistence.swift */,
+				F40AC01F278C4C84004A73F9 /* Ransom.xcdatamodeld */,
+				F40AC01A278C4C84004A73F9 /* Preview Content */,
+			);
+			path = Ransom;
+			sourceTree = "<group>";
+		};
+		F40AC01A278C4C84004A73F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC01B278C4C84004A73F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F40AC029278C4C84004A73F9 /* RansomTests */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC02A278C4C84004A73F9 /* RansomTests.swift */,
+			);
+			path = RansomTests;
+			sourceTree = "<group>";
+		};
+		F40AC033278C4C84004A73F9 /* RansomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC034278C4C84004A73F9 /* RansomUITests.swift */,
+				F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */,
+			);
+			path = RansomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40AC010278C4C82004A73F9 /* Ransom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40AC03A278C4C84004A73F9 /* Build configuration list for PBXNativeTarget "Ransom" */;
+			buildPhases = (
+				F40AC00D278C4C82004A73F9 /* Sources */,
+				F40AC00E278C4C82004A73F9 /* Frameworks */,
+				F40AC00F278C4C82004A73F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ransom;
+			productName = Ransom;
+			productReference = F40AC011278C4C82004A73F9 /* Ransom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F40AC025278C4C84004A73F9 /* RansomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40AC03D278C4C84004A73F9 /* Build configuration list for PBXNativeTarget "RansomTests" */;
+			buildPhases = (
+				F40AC022278C4C84004A73F9 /* Sources */,
+				F40AC023278C4C84004A73F9 /* Frameworks */,
+				F40AC024278C4C84004A73F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40AC028278C4C84004A73F9 /* PBXTargetDependency */,
+			);
+			name = RansomTests;
+			productName = RansomTests;
+			productReference = F40AC026278C4C84004A73F9 /* RansomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F40AC02F278C4C84004A73F9 /* RansomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40AC040278C4C84004A73F9 /* Build configuration list for PBXNativeTarget "RansomUITests" */;
+			buildPhases = (
+				F40AC02C278C4C84004A73F9 /* Sources */,
+				F40AC02D278C4C84004A73F9 /* Frameworks */,
+				F40AC02E278C4C84004A73F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F40AC032278C4C84004A73F9 /* PBXTargetDependency */,
+			);
+			name = RansomUITests;
+			productName = RansomUITests;
+			productReference = F40AC030278C4C84004A73F9 /* RansomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40AC009278C4C82004A73F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F40AC010278C4C82004A73F9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F40AC025278C4C84004A73F9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F40AC010278C4C82004A73F9;
+					};
+					F40AC02F278C4C84004A73F9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F40AC010278C4C82004A73F9;
+					};
+				};
+			};
+			buildConfigurationList = F40AC00C278C4C82004A73F9 /* Build configuration list for PBXProject "Ransom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40AC008278C4C82004A73F9;
+			productRefGroup = F40AC012278C4C82004A73F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40AC010278C4C82004A73F9 /* Ransom */,
+				F40AC025278C4C84004A73F9 /* RansomTests */,
+				F40AC02F278C4C84004A73F9 /* RansomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40AC00F278C4C82004A73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40AC01C278C4C84004A73F9 /* Preview Assets.xcassets in Resources */,
+				F40AC019278C4C84004A73F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AC024278C4C84004A73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AC02E278C4C84004A73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40AC00D278C4C82004A73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40AC01E278C4C84004A73F9 /* Persistence.swift in Sources */,
+				F40AC017278C4C82004A73F9 /* ContentView.swift in Sources */,
+				F40AC015278C4C82004A73F9 /* RansomApp.swift in Sources */,
+				F40AC021278C4C84004A73F9 /* Ransom.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AC022278C4C84004A73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40AC02B278C4C84004A73F9 /* RansomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F40AC02C278C4C84004A73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40AC037278C4C84004A73F9 /* RansomUITestsLaunchTests.swift in Sources */,
+				F40AC035278C4C84004A73F9 /* RansomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F40AC028278C4C84004A73F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40AC010278C4C82004A73F9 /* Ransom */;
+			targetProxy = F40AC027278C4C84004A73F9 /* PBXContainerItemProxy */;
+		};
+		F40AC032278C4C84004A73F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F40AC010278C4C82004A73F9 /* Ransom */;
+			targetProxy = F40AC031278C4C84004A73F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F40AC038278C4C84004A73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F40AC039278C4C84004A73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40AC03B278C4C84004A73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ransom/Preview Content\"";
+				DEVELOPMENT_TEAM = X4Q8Z466M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gaurav.Ransom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F40AC03C278C4C84004A73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ransom/Preview Content\"";
+				DEVELOPMENT_TEAM = X4Q8Z466M4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gaurav.Ransom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F40AC03E278C4C84004A73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4Q8Z466M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gaurav.RansomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ransom.app/Ransom";
+			};
+			name = Debug;
+		};
+		F40AC03F278C4C84004A73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4Q8Z466M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gaurav.RansomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ransom.app/Ransom";
+			};
+			name = Release;
+		};
+		F40AC041278C4C84004A73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4Q8Z466M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gaurav.RansomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ransom;
+			};
+			name = Debug;
+		};
+		F40AC042278C4C84004A73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X4Q8Z466M4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gaurav.RansomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ransom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40AC00C278C4C82004A73F9 /* Build configuration list for PBXProject "Ransom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40AC038278C4C84004A73F9 /* Debug */,
+				F40AC039278C4C84004A73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40AC03A278C4C84004A73F9 /* Build configuration list for PBXNativeTarget "Ransom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40AC03B278C4C84004A73F9 /* Debug */,
+				F40AC03C278C4C84004A73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40AC03D278C4C84004A73F9 /* Build configuration list for PBXNativeTarget "RansomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40AC03E278C4C84004A73F9 /* Debug */,
+				F40AC03F278C4C84004A73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40AC040278C4C84004A73F9 /* Build configuration list for PBXNativeTarget "RansomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40AC041278C4C84004A73F9 /* Debug */,
+				F40AC042278C4C84004A73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F40AC01F278C4C84004A73F9 /* Ransom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F40AC020278C4C84004A73F9 /* Ransom.xcdatamodel */,
+			);
+			currentVersion = F40AC020278C4C84004A73F9 /* Ransom.xcdatamodel */;
+			path = Ransom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F40AC009278C4C82004A73F9 /* Project object */;
+}
