@@ -1,9 +1,4 @@
-//
-//  HomeScreen.swift
-//  Ransom
-//
-//  Created by Gaurav Singh on 10/01/22.
-//
+
 
 import SwiftUI
 
