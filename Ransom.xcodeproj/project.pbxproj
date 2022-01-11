@@ -20,6 +20,8 @@
 		F40AC04A278DA060004A73F9 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC049278DA060004A73F9 /* Stock.swift */; };
 		F40AC04D278DA58E004A73F9 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC04C278DA58E004A73F9 /* StockViewModel.swift */; };
 		F40AC04F278DA782004A73F9 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC04E278DA782004A73F9 /* StockListViewModel.swift */; };
+		F40AC052278DED09004A73F9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC051278DED09004A73F9 /* SearchView.swift */; };
+		F40AC054278DEEDE004A73F9 /* StockListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC053278DEEDE004A73F9 /* StockListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		F40AC049278DA060004A73F9 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
 		F40AC04C278DA58E004A73F9 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
 		F40AC04E278DA782004A73F9 /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
+		F40AC051278DED09004A73F9 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F40AC053278DEEDE004A73F9 /* StockListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 			children = (
 				F40AC014278C4C82004A73F9 /* RansomApp.swift */,
 				F40AC043278C4D69004A73F9 /* HomeScreen.swift */,
+				F40AC050278DECF6004A73F9 /* SearchViews */,
 				F40AC04B278DA570004A73F9 /* ViewModel */,
 				F40AC048278D9BDF004A73F9 /* Models */,
 				F40AC045278D9B5E004A73F9 /* API's */,
@@ -167,6 +172,15 @@
 				F40AC04C278DA58E004A73F9 /* StockViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F40AC050278DECF6004A73F9 /* SearchViews */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC051278DED09004A73F9 /* SearchView.swift */,
+				F40AC053278DEEDE004A73F9 /* StockListView.swift */,
+			);
+			path = SearchViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40AC01E278C4C84004A73F9 /* Persistence.swift in Sources */,
+				F40AC052278DED09004A73F9 /* SearchView.swift in Sources */,
 				F40AC04F278DA782004A73F9 /* StockListViewModel.swift in Sources */,
 				F40AC044278C4D69004A73F9 /* HomeScreen.swift in Sources */,
 				F40AC047278D9B7F004A73F9 /* Webservice.swift in Sources */,
@@ -307,6 +322,7 @@
 				F40AC015278C4C82004A73F9 /* RansomApp.swift in Sources */,
 				F40AC021278C4C84004A73F9 /* Ransom.xcdatamodeld in Sources */,
 				F40AC04D278DA58E004A73F9 /* StockViewModel.swift in Sources */,
+				F40AC054278DEEDE004A73F9 /* StockListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

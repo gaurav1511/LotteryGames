@@ -9,6 +9,7 @@ import Foundation
 
 class StockListViewModel: ObservableObject{
     
+    //@Published var searchTerm: String = ""
     @Published var stocks = [StockViewModel]()
     
     func load(){
@@ -20,8 +21,13 @@ class StockListViewModel: ObservableObject{
         Webservice().getStocks { stocks in
             
             if let stocks = stocks{
-                self.stocks = stocks.map(StockViewModel.init)
                 debugPrint("Stock List \(self.stocks)")
+                DispatchQueue.main.async {
+                    self.stocks = stocks.map(StockViewModel.init)
+                    
+                }
+                
+               
             }
             
         }
