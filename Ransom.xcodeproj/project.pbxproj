@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F40AC015278C4C82004A73F9 /* RansomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC014278C4C82004A73F9 /* RansomApp.swift */; };
-		F40AC017278C4C82004A73F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC016278C4C82004A73F9 /* ContentView.swift */; };
 		F40AC019278C4C84004A73F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40AC018278C4C84004A73F9 /* Assets.xcassets */; };
 		F40AC01C278C4C84004A73F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40AC01B278C4C84004A73F9 /* Preview Assets.xcassets */; };
 		F40AC01E278C4C84004A73F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC01D278C4C84004A73F9 /* Persistence.swift */; };
@@ -17,6 +16,10 @@
 		F40AC035278C4C84004A73F9 /* RansomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC034278C4C84004A73F9 /* RansomUITests.swift */; };
 		F40AC037278C4C84004A73F9 /* RansomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */; };
 		F40AC044278C4D69004A73F9 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC043278C4D69004A73F9 /* HomeScreen.swift */; };
+		F40AC047278D9B7F004A73F9 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC046278D9B7F004A73F9 /* Webservice.swift */; };
+		F40AC04A278DA060004A73F9 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC049278DA060004A73F9 /* Stock.swift */; };
+		F40AC04D278DA58E004A73F9 /* StockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC04C278DA58E004A73F9 /* StockViewModel.swift */; };
+		F40AC04F278DA782004A73F9 /* StockListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40AC04E278DA782004A73F9 /* StockListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,6 @@
 /* Begin PBXFileReference section */
 		F40AC011278C4C82004A73F9 /* Ransom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ransom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40AC014278C4C82004A73F9 /* RansomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomApp.swift; sourceTree = "<group>"; };
-		F40AC016278C4C82004A73F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F40AC018278C4C84004A73F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F40AC01B278C4C84004A73F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F40AC01D278C4C84004A73F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -50,6 +52,10 @@
 		F40AC034278C4C84004A73F9 /* RansomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomUITests.swift; sourceTree = "<group>"; };
 		F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RansomUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F40AC043278C4D69004A73F9 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		F40AC046278D9B7F004A73F9 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		F40AC049278DA060004A73F9 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		F40AC04C278DA58E004A73F9 /* StockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewModel.swift; sourceTree = "<group>"; };
+		F40AC04E278DA782004A73F9 /* StockListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				F40AC014278C4C82004A73F9 /* RansomApp.swift */,
-				F40AC016278C4C82004A73F9 /* ContentView.swift */,
 				F40AC043278C4D69004A73F9 /* HomeScreen.swift */,
+				F40AC04B278DA570004A73F9 /* ViewModel */,
+				F40AC048278D9BDF004A73F9 /* Models */,
+				F40AC045278D9B5E004A73F9 /* API's */,
 				F40AC018278C4C84004A73F9 /* Assets.xcassets */,
 				F40AC01D278C4C84004A73F9 /* Persistence.swift */,
 				F40AC01F278C4C84004A73F9 /* Ransom.xcdatamodeld */,
@@ -134,6 +142,31 @@
 				F40AC036278C4C84004A73F9 /* RansomUITestsLaunchTests.swift */,
 			);
 			path = RansomUITests;
+			sourceTree = "<group>";
+		};
+		F40AC045278D9B5E004A73F9 /* API's */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC046278D9B7F004A73F9 /* Webservice.swift */,
+			);
+			path = "API's";
+			sourceTree = "<group>";
+		};
+		F40AC048278D9BDF004A73F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC049278DA060004A73F9 /* Stock.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F40AC04B278DA570004A73F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F40AC04E278DA782004A73F9 /* StockListViewModel.swift */,
+				F40AC04C278DA58E004A73F9 /* StockViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,10 +300,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40AC01E278C4C84004A73F9 /* Persistence.swift in Sources */,
+				F40AC04F278DA782004A73F9 /* StockListViewModel.swift in Sources */,
 				F40AC044278C4D69004A73F9 /* HomeScreen.swift in Sources */,
-				F40AC017278C4C82004A73F9 /* ContentView.swift in Sources */,
+				F40AC047278D9B7F004A73F9 /* Webservice.swift in Sources */,
+				F40AC04A278DA060004A73F9 /* Stock.swift in Sources */,
 				F40AC015278C4C82004A73F9 /* RansomApp.swift in Sources */,
 				F40AC021278C4C84004A73F9 /* Ransom.xcdatamodeld in Sources */,
+				F40AC04D278DA58E004A73F9 /* StockViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
